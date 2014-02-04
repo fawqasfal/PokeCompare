@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <title> ABOUT</title>
+</head>
+<body>
+    <h1>
+	<i>about</i>
+    </h1>
+    <h2> 
+	<a href = "pokestylev2.html">   the unofficial pokemon comparator </a>
+    </h2>
+	<hr>
+	<box> 
+	    <a href = "pokestylev2.html"> home </a> 
+	    <a href = "analysisv2.py"> analysis </a>  
+	</box>
+	<p><b><u>W<i>H</i>A<i>T?</i></u></b></p>
+	<p class = "text">The <i>Unofficial Pokemon Comparator</i> is a repository of information on all 649 Pokemon. It includes their stats (HP, Attack, Defense, Special Attack, Special Defense, and Speed), types, sprites, colors, and abilities. You can sort various Pokemon you want to see and observe those Pokemon's properties individually in the 'dex' page or you can compare 2 Pokemon in the 'analysis' page .Click one of the links on the bottom to begin!</p> 
+	<p><b><u><i>W</i>HY<i>?</i></u></b></p>
+	<p class = "text">Pokemon seemed like the most fun thing to do. Furthermore, Pokemon is actually very mathematical, and the amount of Pokemon is very expansive, so it made sense to use it for an analysis/comparison project. 
+
+        <p> <b><u><i>W</i>HO<i>?</i> </u></b> </p>
+	<p class = "text"> <b>I</b> wrote the HTML/CSS for all 4 pages, as well as the Python code used to analyze the Pokemon data. The data included CSV files of all the Pokemon's number values, their names, types, stats, and abilities. This data was provided by the open-source <b>veekun</b> pokedex (the csv files are on their <u><a href = "https://github.com/veekun/pokedex">GitHub</a></u>). The Pikachu picture on the right was supplied by <u><a href = "http://bulbapedia.bulbagarden.net/wiki/Pikachu">Bulbapedia</a></u>. </p>
+	<p><b><u>HO<i>W</i>?</b></u></p>
+	<p class = "text"> Go to the Analysis page and choose 2 Pokemon to compare. Then hit the "See How they Compare!" button and it should redirect you to a page with a rudimentary HTML table comparing the stats and other properties of the 2 Pokemon. </p>
+	<p> What did you learn ? </p>
+	<p class = "text">About styling, I learned that knowing the basic selector/class + property layout of CSS doesn't mean you know how to use it to make good-looking webpages...<br> About OS X, I learned that Mr. Brooks's web servers don't work. Blegh. <br> About web-scraping, I learned I sucked at it. I initially had a site that scraped the Pokemon data from <u><a href = "http://www.smogon.com/bw/pokemon">smogon</a></u> and tried to get Pokemon data from that index page. It was horrible and it took forever to make work and it still was terribly slow and there were exceptions and the webpage itself looked hideous and ugh. The supplied CSVs are much easier to work with and focus on the real work -- the analyzation.<br> Another thing I learned is that, with 2-dimensional lists, you can't do List[Item][ItemOfItem]; you have to do (List[Item])[ItemofItem], or put List[Item] into a variable Var and then do Var[ItemofItem]. <br> Another thing I learned is that some kid in 10th period did -exactly- what I did, except it looked better and he used JavaScript buttons, too. That sucks.  <br> P.S.: In this folder, I have a file named <a href = "../cgi-bin/testy.py"><u>"testy.py"</u></a>. It's basically the same as this one, except it uses Python to generate 4 random pictures of Pokemon from <u><a href = "http://www.serebii.net">serebii</u></a> instead of the picture of Pikachu. I decided to get rid of it because sometimes the pictures don't line up nicely and it gets ugly fast. <br> I also learned the importance of generalization/noticing patterns in code-writing and reducing lines/time spent working with functions that go through these patterns for you. Breaking things up into functions makes everything much easier to work with and understand.</p>
+	<p> <img class = "img1" src = "chu.png"> </p>
+	<ul> Things to do, for Analysis VEE-TOO </ul>
+	<li> Unify Analysis and Dex pages by putting Dex in a form in analysis.py (Done, Monday) </li>
+	<li> Break up the Dex page into 50-Pokemon long pages. </li> (Done, Tuesday)
+	<li> Add text search </li> (Done, Monday)
+	<li> Add stat difference after every stat. </li> (Done, Wednesday)
+	<li> Sort Pokemon by alphabetical order, chosen types/colors, and how many results per page(<- got that much working, Thursday)(finished,Friday) </li>
+	</body>
+</html>
